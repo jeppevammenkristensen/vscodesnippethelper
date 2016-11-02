@@ -1,0 +1,8 @@
+C:\Users\JeppeVammen\Documents\Visual Studio 2015\vscodesnippethelper\MergeVsCode\bin\Debug\MergeVsCode.exe.config
+C:\Users\JeppeVammen\Documents\Visual Studio 2015\vscodesnippethelper\MergeVsCode\bin\Debug\MergeVsCode.exe
+C:\Users\JeppeVammen\Documents\Visual Studio 2015\vscodesnippethelper\MergeVsCode\bin\Debug\MergeVsCode.pdb
+C:\Users\JeppeVammen\Documents\Visual Studio 2015\vscodesnippethelper\MergeVsCode\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JeppeVammen\Documents\Visual Studio 2015\vscodesnippethelper\MergeVsCode\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JeppeVammen\Documents\Visual Studio 2015\vscodesnippethelper\MergeVsCode\obj\Debug\MergeVsCode.csprojResolveAssemblyReference.cache
+C:\Users\JeppeVammen\Documents\Visual Studio 2015\vscodesnippethelper\MergeVsCode\obj\Debug\MergeVsCode.exe
+C:\Users\JeppeVammen\Documents\Visual Studio 2015\vscodesnippethelper\MergeVsCode\obj\Debug\MergeVsCode.pdb
