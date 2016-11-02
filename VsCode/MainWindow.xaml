@@ -1,0 +1,45 @@
+﻿<Window x:Class="VsCode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VsCode"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" DataContext="{StaticResource MainViewModel}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Top" Orientation="Horizontal">
+            <Label Content="Title"/>
+            <TextBox Width="483" Text="{Binding Title, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Top" Orientation="Horizontal">
+            <Label Content="Prefix"/>
+            <TextBox Width="483" Text="{Binding Prefix, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </StackPanel>
+
+
+        <StackPanel HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Top" Orientation="Horizontal">
+            <Label Content="Description"/>
+            <TextBox Width="483" Text="{Binding Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </StackPanel>
+
+        <TextBox HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Stretch" AcceptsTab="True" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" Text="{Binding Input, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" ></TextBox>
+        <TextBlock Text="{Binding Output}" Grid.Row="4"></TextBlock>
+        <StackPanel Orientation="Horizontal" Grid.Row="5">
+            <Button Content="Kopier" Click="Copy" Grid.Row="5" ></Button>
+            <Button Content="Indsæt fra clipboard" Click="Insert" Grid.Row="5" ></Button>
+        </StackPanel>
+        
+
+    </Grid>
+    
+    
+</Window>
